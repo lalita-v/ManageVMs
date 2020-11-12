@@ -210,7 +210,7 @@ $authtoken = $ENV:TwilioAuthToken
 
 write-host "Message Receieved is: $message"
 #if the sender is an approved sender then proceed
-If (($Sender -like "*6182036528"))
+If (($Sender -like "*66805913024"))
 {
 	Write-Host "Logging into Azure"
 	$User = $ENV:ApplicationID
